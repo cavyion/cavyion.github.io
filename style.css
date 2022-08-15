@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(main/fonts/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Zen Maru Gothic";
+    src: url(main/fonts/ZenMaruGothic-Regular.ttf) format('truetype');
+}
+
+html {
+  height: 90%;
+  background-color: gray;
+  overflow: hidden;
+  background-image: url(\main/images/clannad_1.jpeg);
+  background-size: 115% 115%;
+
+
+}
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+h2 {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-size: 6en;
+    margin-bottom: -6px;
+    color: antiquewhite;
+    font-weight: 300;
+    text-align: center;
+}
+h3 {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 6en;
+  margin-bottom: -6px;
+  color: antiquewhite;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.link_buttons {
+  width: 35%;
+  display: block;
+  margin:0 auto;
+  padding: 10px 24px; /* Some padding */
+}
+
+.button {
+  
+  font-family: 'Zen Maru Gothic', sans-serif;
+  
+  backdrop-filter: blur(10px);
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: antiquewhite;
+  padding: 10px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+
+  border-style: solid;
+  border-color: rgba(34, 138, 34, 0.616);
+  border-radius: 50px;
+  border-width: 1px;
+
+  transition-duration: 0.4s;
+  margin: 10px;
+
+opacity: 0.8;
+
+}
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
+  opacity: 1;
+  border-width: 3px;
+}
+
+.footer {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  opacity: 75%;
+  position: fixed;
+  left: 25px;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: left;
+}
+
+
+
+/* links */
+  .links {
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  text-align: center;
+  text-decoration: none;
+      margin: auto;
+  text-shadow: 6px darkcyan;
+  font-family: "Zen Maru Gothic", sans-serif;
+  color: antiquewhite;
+  font-size: 2vw;
+  text-align: center; 
+
+    display: inline;
+    padding: 10px 235px;
+    border-radius: 50px;
+}
+  a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
