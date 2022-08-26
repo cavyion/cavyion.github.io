@@ -8,7 +8,7 @@
 }
 
 html {
-  height: 90%;
+  height: 100%;
   background-color: rgb(94, 40, 40);
   overflow: hidden;
  /* background-image: url(\main/images/clannad_1.jpeg); */
@@ -24,7 +24,7 @@ body {
 
 h2 {
     font-family: "Zen Maru Gothic", sans-serif;
-    font-size: 2vw;
+    font-size: 2vh;
     margin-bottom: -6px;
     color: antiquewhite;
     font-weight: 300;
@@ -32,7 +32,7 @@ h2 {
 }
 h3 {
   font-family: "Zen Maru Gothic", sans-serif;
-  font-size: 1vw;
+  font-size: 1.5vh;
   margin-bottom: -6px;
   color: antiquewhite;
   font-weight: 300;
@@ -41,25 +41,25 @@ h3 {
 
 
 .link_buttons {
-  width: 35%;
+  width: 75vw;
+  height: 10vh;
   display: block;
   margin:0 auto;
-  padding: 10px 24px; /* Some padding */
+  padding: .75rem 1.5rem; /* 10px 24px Some padding */
 }
 
 .button {
   
   font-family: 'Zen Maru Gothic', sans-serif;
   
-  backdrop-filter: blur(10px);
   background-color: #4CAF50; /* Green */
   border: none;
   color: antiquewhite;
-  padding: 1vw 2vw; /* 10px 42px */
+  padding: 0.75rem 1.5rem; /* 10px 42px */
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 2vw;
+  font-size: 2vh;
 
   border-style: solid;
   border-color: rgba(34, 138, 34, 0.616);
@@ -67,7 +67,7 @@ h3 {
   border-width: 1px;
 
   transition-duration: 0.4s;
-  margin: 10px;
+  margin: 1vw; /* 10px */
 
 opacity: 0.8;
 
