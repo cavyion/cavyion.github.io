@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(main/fonts/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Zen Maru Gothic";
+    src: url(main/fonts/ZenMaruGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(main/fonts/SourceSansPro-Regular.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*
+
+links for images:
+https://github.com/gilbarbara/logos
+
+instagram:
+steam:
+roblox:
+soundcloud:
+spotify:
+lastfm:
+crunchyroll:
+
+*/
+
+html {
+  height: 100%;
+  background-color: rgb(55, 75, 154);
+  overflow: hidden;
+ /* background-image: url(\main/images/clannad_1.jpeg); */
+  background-size: 100% 100%;
+} 
+body {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+h2 {
+    font-family: "Source Sans Pro", Sans-Serif;
+    font-size: 2vh;
+    margin-bottom: -6px;
+    color: antiquewhite;
+    font-weight: 300;
+    text-align: center;
+}
+h3 {
+  font-family: "Source Sans Pro", Sans-Serif;
+  font-size: 2vh;
+  margin-bottom: -18px;
+  color: antiquewhite;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.link_buttons {
+  width: 75vw;
+  height: 10vh;
+  display: block;
+  margin:0 auto;
+  padding: 1rem 3rem; /* 10px 24px Some padding */
+}
+
+.button {
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: antiquewhite;
+  padding: 0.75rem 1.5rem; /* 10px 42px */
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 2.5vh;
+  font-weight: 450;
+  border-style: solid;
+  border-color: rgba(34, 138, 34, 0.616);
+  border-radius: 50px;
+  border-width: 2px;
+
+  transition-duration: 0.4s;
+  margin: 1.25vh; /* 10px */
+
+opacity: 0.8;
+
+}
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
+  opacity: 1;
+  border-width: 3px;
+}
+
+.footer {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 1.3vh;
+  opacity: 75%;
+  position: fixed;
+  left: 1vh;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: left;
+}
+
+  .cavyion_icon {
+  height: 16vh;
+  border-radius: 50%;
+}
+
+/* links */
+  .links {
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  text-align: center;
+  text-decoration: none;
+      margin: auto;
+  text-shadow: 6px darkcyan;
+  font-family: "Zen Maru Gothic", sans-serif;
+  color: antiquewhite;
+  font-size: 2vw;
+  text-align: center; 
+
+    display: inline;
+    padding: 10px 235px;
+    border-radius: 50px;
+}
+  a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
