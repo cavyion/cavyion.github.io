@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cavyion.github.io
+Token: 0e1d3985c781f7ce831bce0313c0b127d86c7c67f0cdc02065bd2c5486b08f37
