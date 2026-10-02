@@ -7,24 +7,26 @@
   <meta name="description" content="Official links and music from cavyion, Filipino artist and producer.">
   <meta name="keywords" content="cavyion, cav, links">
   <meta name="author" content="cavyion">
+  <meta name="theme-color" content="#151a12">
+  <meta name="color-scheme" content="dark">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://cavyion.github.io/">
   <meta property="og:title" content="cavyion.github.io">
   <meta property="og:description" content="Official links and music from cavyion, Filipino artist and producer.">
-  <meta property="og:image" content="https://cavyion.github.io/images/background-image.webp">
+  <meta property="og:image" content="https://cavyion.github.io/images/og-image.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://cavyion.github.io/">
   <meta name="twitter:title" content="cavyion.github.io">
   <meta name="twitter:description" content="Official links and music from cavyion, Filipino artist and producer.">
-  <meta name="twitter:image" content="https://cavyion.github.io/images/background-image.webp">
+  <meta name="twitter:image" content="https://cavyion.github.io/images/og-image.jpg">
 
-  <link rel="preload" href="fonts/Fredoka.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="images/background-image.webp" as="image" type="image/webp">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="images/favicon.ico">
   <link rel="canonical" href="https://cavyion.github.io/">
-  <link rel="apple-touch-icon" href="images/cavyion.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="manifest" href="manifest.json">
   <script src="js/main.js" defer></script>
 
@@ -41,6 +43,7 @@
       "https://open.spotify.com/artist/1CEuTtkSFPNjRslwqK1G6h",
       "https://music.apple.com/us/artist/cavyion/1710173871",
       "https://soundcloud.com/cavyion",
+      "https://cavyion.bandcamp.com",
       "https://instagram.com/cavyion",
       "https://github.com/cavyion"
     ]
@@ -50,30 +53,23 @@
 <body>
   <div class="bg-static" aria-hidden="true"></div>
   <video autoplay muted loop playsinline poster="images/background-image.webp" class="bg-image" aria-hidden="true">
+    <source src="images/background.mp4" type="video/mp4">
     <source src="images/background.webm" type="video/webm">
   </video>
+  <div class="bg-vignette" aria-hidden="true"></div>
 
-  <img id="icon" class="noselect" src="images/cavyion.png" height="175" width="175" alt="cavyion">
-  <div id="text" class="noselect">cav (@cavyion)</div>
-  <div id="comment" class="noselect">
-    Filipino artist &amp; producer.<br>
-    Visit <a href="https://cavyion.com" target="_blank" rel="noopener noreferrer">cavyion.com</a> for full catalog, credits, and releases.
-  </div>
+  <main class="main-content">
+    <img id="icon" class="noselect" src="images/cavyion.png" height="135" width="135" alt="cavyion" decoding="async" fetchpriority="high">
+    <div id="text" class="noselect">cav (@cavyion)</div>
+    <div id="comment" class="noselect">I make music and build things sometimes.</div>
 
-  <div class="noselect centralize headers">latest release: Au Revoir</div>
-  <div id="soundcloudcontainer" class="noselect centralize">
-    <iframe width="250" height="250" allow="autoplay" title="Au Revoir on SoundCloud" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/2269172261&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
-    <div style="font-size:10px;color:#ccc;line-break:anywhere;word-break:normal;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-family:Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight:100">
-      <a href="https://soundcloud.com/cavyion" title="cavyion on SoundCloud" target="_blank" rel="noopener noreferrer" style="color:#ccc;text-decoration:none">cavyion</a> · <a href="https://soundcloud.com/cavyion/sets/au-revoir" title="Au Revoir on SoundCloud" target="_blank" rel="noopener noreferrer" style="color:#ccc;text-decoration:none">Au Revoir</a>
-    </div>
-  </div>
-
-  <a class="button centralize" id="link-cavyion" href="https://cavyion.com" target="_blank" rel="noopener noreferrer">cavyion.com</a>
-  <a class="button centralize" id="link-spotify" href="https://open.spotify.com/artist/1CEuTtkSFPNjRslwqK1G6h" target="_blank" rel="noopener noreferrer">spotify</a>
-  <a class="button centralize" id="link-apple-music" href="https://music.apple.com/us/artist/cavyion/1710173871" target="_blank" rel="noopener noreferrer">apple music</a>
-  <a class="button centralize" id="link-soundcloud" href="https://soundcloud.com/cavyion" target="_blank" rel="noopener noreferrer">soundcloud</a>
-  <a class="button centralize" id="link-instagram" href="https://instagram.com/cavyion" target="_blank" rel="noopener noreferrer">instagram</a>
-
-  <div id="linkoverlay" class="noselect" aria-hidden="true"></div>
+    <a class="button centralize" id="link-cavyion" href="https://cavyion.com" target="_blank" rel="noopener noreferrer">cavyion.com</a>
+    <a class="button centralize" id="link-spotify" href="https://open.spotify.com/artist/1CEuTtkSFPNjRslwqK1G6h" target="_blank" rel="noopener noreferrer">Spotify</a>
+    <a class="button centralize" id="link-apple-music" href="https://music.apple.com/us/artist/cavyion/1710173871" target="_blank" rel="noopener noreferrer">Apple Music</a>
+    <a class="button centralize" id="link-soundcloud" href="https://soundcloud.com/cavyion" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+    <a class="button centralize" id="link-bandcamp" href="https://cavyion.bandcamp.com" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+    <a class="button centralize" id="link-instagram" href="https://instagram.com/cavyion" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a class="button centralize" id="link-github" href="https://github.com/cavyion" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </main>
 </body>
 </html>

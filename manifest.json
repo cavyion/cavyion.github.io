@@ -5,17 +5,22 @@
   "start_url": "./",
   "lang": "en",
   "display": "standalone",
-  "theme_color": "hsl(228, 47%, 41%)",
-  "background_color": "hsl(228, 47%, 41%)",
+  "theme_color": "#151a12",
+  "background_color": "#151a12",
   "icons": [
     {
       "src": "images/cavyion.png",
-      "sizes": "150x150",
+      "sizes": "600x600",
+      "type": "image/png"
+    },
+    {
+      "src": "images/apple-touch-icon.png",
+      "sizes": "180x180",
       "type": "image/png"
     },
     {
       "src": "images/favicon.ico",
-      "sizes": "32x32",
+      "sizes": "48x48 32x32 16x16",
       "type": "image/x-icon"
     }
   ]
