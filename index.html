@@ -20,7 +20,6 @@
   <meta name="twitter:description" content="Official links and music from cavyion, Filipino artist and producer.">
   <meta name="twitter:image" content="https://cavyion.github.io/images/background-image.webp">
 
-  <link rel="preload" href="images/background.webm" as="video" type="video/webm">
   <link rel="preload" href="fonts/Fredoka.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="images/favicon.ico">
@@ -49,7 +48,8 @@
   </script>
 </head>
 <body>
-  <video preload="auto" autoplay muted loop poster="images/background.gif" playsinline class="bg-image">
+  <div class="bg-static" aria-hidden="true"></div>
+  <video autoplay muted loop playsinline poster="images/background-image.webp" class="bg-image" aria-hidden="true">
     <source src="images/background.webm" type="video/webm">
   </video>
 
